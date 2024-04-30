@@ -10,15 +10,15 @@ class Product(BaseModel):
 
     SEEDS = [
         {
-            'name': 'Strawberries',
-            'description': 'Juicy organic strawberries.',
-            'price': 4.99,
+            'name': 'Blackberries',
+            'description': 'The yummiest most tastiest luscious blackberries NOT Juicy organic strawberries.',
+            'price': 99999.99,
             'url': 'https://picsum.photos/id/1080/360/200'
         },
         {
-            'name': 'Cup of Tea',
-            'description': 'An individually-prepared tea or coffee of choice.',
-            'price': 3.49,
+            'name': 'Cup of Joe',
+            'description': 'An individually-prepared coffee of choice Only serve coffee no tea sorry.',
+            'price': 100.49,
             'url': 'https://picsum.photos/id/225/360/200'
         },
         {
@@ -26,6 +26,12 @@ class Product(BaseModel):
             'description': 'It has all the answers.',
             'price': 129.99,
             'url': 'https://picsum.photos/id/24/360/200'
+        },
+        {
+            'name': 'Gold Bars',
+            'description': 'Mint gold bars, yep its real gold.',
+            'price': 15500000.99,
+            'url': 'https://t4.ftcdn.net/jpg/00/58/81/27/360_F_58812794_H5PaQox9Ic9EpZVksPVPWxGcl91XnA3v.jpg'
         }
     ]
 

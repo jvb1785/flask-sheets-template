@@ -75,12 +75,14 @@
     {% set public_nav = [
       ('/about', 'about', 'About'),
       ('/products', 'products', 'Products'),
+      ('/books', 'books', 'Books'),
       ('/login', 'login', 'Login'),
     ] -%}
 
     {% set protected_nav = [
       ('/about', 'about', 'About'),
       ('/products', 'products', 'Products'),
+      ('/books', 'books', 'Books'),
       ('/user/orders', 'user_orders', 'Orders'),
     ] -%}
 
@@ -100,19 +102,19 @@
         https://getbootstrap.com/docs/5.1/customize/color/#theme-colors
     -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg bg-warning">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
                 <!--
                     NAV ICON
                     https://icons.getbootstrap.com/
                 -->
-                <i class="bi-globe" style="font-size: 1.7rem; color: white;"></i>
+                <i class="bi bi-dice-6-fill" style="font-size: 1.7rem; color: black;"></i>
                 &nbsp;
                 <!--
                     NAV TITLE
                 -->
-                My App
+                Worlds Best App
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -177,7 +179,7 @@
             <div class="row">
                 <div class="col-sm-6" style="display: inline; margin-bottom: 5px;">
                     <p class="small">
-                        &copy; Copyright 2024 Your Name Here
+                        &copy; Copyright 2024 RJ Snell
                     </p>
                     <p class="small white-space: nowrap;">
                         Made with the <a href="https://github.com/prof-rossetti/flask-sheets-template-2024">Flask Sheets Template 2024</a>
